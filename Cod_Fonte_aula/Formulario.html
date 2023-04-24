@@ -7,12 +7,46 @@
     <title>Formulário</title>
 </head>
 <body>
+<form>
     <h1>Formulário</h1>
     <label>Informe seu nome:</label></br>
-    <input id="nome"></br>
-    <label> Digite um texto </label></br>
-    <textarea rows="3">Digite Aqui</textarea></br>
-    <button id="enviar">Enviar</button>
+    <input type="text" id="nome" placeholder="digite aqui"></br>
+    <label for="text1"> Digite um texto </label></br>
+    <textarea type="text" rows="3" placeholder="digite aqui"></textarea></br>
+    <label for="email">E-mail</label></br>
+    <input type="email" placeholder="um email aqui"/></br>
+    <label for="number">Fone contato</label></br>
+    <input type="number" placeholder="um numero de celular"/></br>
+    <label for="password">digite sua senha</label></br>
+    <input type="password" placeholder="sua senha aqui"/></br>
+    <label for="color" placeholder="escolha uma cor">Selecione uma cor:</label></br>
+    <input type="color"/></br></br>
+    <label>Grau de Instrução: </label></br>
+    <select>
+        <option selected>Fundamental Completo</option>
+        <option selected>Fundamental Incompleto</option>
+        <option selected>Superior Incompleto</option>
+        <option selected>Superior Completo</option>
+    </select></br>
+    <select multiple>
+        <optrion>HTML</optrion>
+        <option>JavaScript</option>
+        <option>C++</option>
+        <option>Python</option>
+        <option>Informática Básica</option>
+        <option>CSS</option>
+        <option>Java</option>
+    </select></br>
+    <label>Sua cor favorita?</label></br>
+    <input type="radio" name="Cor_favorita" id="Cor_vermelha"><label for="Cor_favorita" checked="true">Vermelho</label></br>
+    <input type="radio" name="Cor_favorita" id="Cor_Preto"><label for="Cor_favorita">Preto</label></br>
+    <input type="radio" name="Cor_favorita" id="Cor_Amarelo"><label for="Cor_favorita">Amarelo</label></br>
+    <input type="radio" name="Cor_favorita" id="Cor_Branco"><label for="Cor_favorita">Branco</label></br>
+    <input type="radio" name="Cor_favorita" id="cor_Azul"><label for="Cor_favorita">Azul</label></br>
+    <input type="radio" name="Cor_favorita" id="Cor_Ciano"><label for="Cor_favorita">Ciano</label></br>
+    <button id="enviar" type=submit>Enviar</button>
+    <button id="reset" type="reset">Limpar</button>
+</form>
 <footer></br>
     <a href="/Cod_Fonte_aula/tabelas.html">Tabelas</a></br>
     <a href="/Cod_Fonte_aula/Index.html"> Home</a></br>
