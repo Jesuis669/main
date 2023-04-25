@@ -1,0 +1,25 @@
+* Qual a função do HTML, CSS, JavaScript para desenvolver web
+-> HTML:
+    A função do HTML é permitir que um navegador leia e traduza marcações de textos e outras mídias para uma página na web,
+permitindo que o usuário possa visualizar e interagir com essa página. Isso inclui vídeos, formulários, áudio e muito mais.
+    É o código que você usa para estruturar uma página web e seu conteúdo.
+Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas.
+    É o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web.
+Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.
+    É importante para gerar documentos para a web de forma fácil, assegurando a acessibilidade das páginas e sua transmissão pela internet.
+
+-> CSS:
+    Define regras especificando grupos de estilo que devem ser aplicados para elementos particulares ou grupos de elementos na sua página web.
+Por exemplo, "Quero que o título principal, na minha página, seja mostrado como um texto grande e de cor vermelha.".
+    A linguagem também é utilizada para front-end, principalmente para criar dinamicidade nos sites.
+    O CSS tem a tarefa de separar o conteúdo do site de sua apresentação visual, alterando elementos como cor do texto,
+fonte e espaçamento entre blocos, assim como todo o aspecto estético de uma página.
+
+-> JavaScript:
+    Front-end:  é possível manipular os elementos da página, como já exploramos.
+    Back-end:   é possível tratar requisições e executar diversas tarefas através do framework mais popular Node.
+    É uma linguagem de programação que permite a você implementar itens complexos em páginas web
+toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática
+mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc.
+    O JavaScript surgiu como uma tecnologia do lado do navegador para tornar as aplicações Web mais dinâmicas.
+Ao usar JavaScript, os navegadores passaram a ser capazes de responder a interações do usuário e alterar o layout do conteúdo na página.
