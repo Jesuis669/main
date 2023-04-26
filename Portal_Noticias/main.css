@@ -4,17 +4,38 @@
     padding: 0;
 }
 
-header li{
+body > header{
+    padding: 16px 0;
     display: inline;
+    background-color: brown;
+    color: red;
 }
 
 h1{
-    color: rgb(52, 9, 95);
+    color: blue;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .containers{
     width: 1336px;
     margin: 0 auto 0 auto;
+}
+
+header li{
+    display: inline;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+header li a{
+    color: rgb(red, green, blue);
+    text-decoration: none;
 }
 
 .articles{
@@ -30,4 +51,14 @@ h1{
 
 .articles article{
     width: 30%;
+}
+
+section{
+    padding: 16px;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+    padding: 5px;
+    display: inline-block;
 }
