@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: ;
-    padding: ;
+    margin: 0;
+    padding: 0;
 }
 
 header li{
@@ -9,5 +9,25 @@ header li{
 }
 
 h1{
-    color: blue;
+    color: rgb(52, 9, 95);
+}
+
+.containers{
+    width: 1336px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 260px;
+
+}
+
+.articles article{
+    width: 30%;
 }
