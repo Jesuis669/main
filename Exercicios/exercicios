@@ -1,0 +1,7 @@
+for(let i = 0; i < 11; i++){
+    console.log("5 x " + i + " = " + 5*i);
+}
+
+for(let i = 0; i < 11; i++){
+    console.log("26 x " + i + " = " + 26*i);
+}
