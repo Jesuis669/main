@@ -27,7 +27,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 form input,
@@ -54,12 +54,12 @@ form button:hover {
 }
 
 .social-links img {
-    height: 24px;
+    height: 25px;
 }
 
 .social-links li {
     display: inline;
-    margin-right: 8px;
+    margin-right: 20px;
 }
 
 .social-links li a {
