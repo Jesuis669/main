@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+input{
+    padding: 2px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: blueviolet;
+}
+
+h1{
+    padding: 5px;
+    color: rgb(172, 40, 0);
+    background-color: rgb(82, 0, 0);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    flex-direction: column;
+    margin: 100px 0 0 300px;
+}
+
+.caramba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+td, th{
+    margin: 10px;
+    padding: 25px;
+    display: auto;
+}
+
+.kru{
+    display: flex;
+    margin-left: 70px;
+    justify-content: center;
+}
