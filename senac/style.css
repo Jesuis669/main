@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #192a56;
+    padding: 16px 0;
+    color: white;
+}
+
+nav{
+    background-color: #575fcf;
+    padding: 16px;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu_hamburguer{
+    width: 32px; /*tamanho do menu*/
+}
+
+.menu_hamburguer span{
+    height: 2px; /*a altura de cada span*/
+    /*esse width faz com que o span ocupe 100% do espaço disponível, ou seja, os 32px da propriedade acima*/
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px; /*margem para separar cada linha*/
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
