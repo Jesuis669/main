@@ -1,48 +1,210 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SENAC Motors</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>SENAC Motors</h1>
-            <div class="menu_hamburguer">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav>
-                <div class="container"></div>
-                    <ul>
-                        <li><a href="#">SOBRE</a></li>
-                        <li><a href="#">EM DESTAQUE</a></li>
-                        <li><a href="#">PROMOÇÕES</a></li>
-                        <li><a href="#">CONTATO</a></li>
-                    </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SENAC Motors</title>
+        <!-- fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+        <!-- linkar css padrão -->
+        <link rel="stylesheet" href="style.css">
+        <!-- linkar css com o slick -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- slick -->
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="container container_flex">
+                <h1>SENAC Motors</h1>
+                <div class="menu_hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-            </nav>
+                <nav>
+                    <div class="container container_flex"></div>
+                        <ul>
+                            <li><a href="#">SOBRE</a></li>
+                            <li><a href="#">EM DESTAQUE</a></li>
+                            <li><a href="#">PROMOÇÕES</a></li>
+                            <li><a href="#">CONTATO</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div id="carrossel_imagens">
+            <img src="./imagens/slide1.png" alt="Porche Carrera">
+            <img src="./imagens/slide2.png" alt="Carro da BMW">
+            <img src="./imagens/slide3.png" alt="Ford GT">
         </div>
-    </header>
-    <div id="carrosel_imagens">
-        <img src="imagens/slide3.png" alt="ford gt">
-        <img src="imagens/slide2.png" alt="bmw">
-        <img src="imagens/slide1.png" alt="porsche">
-    </div>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="deus.js"></script>
+        <section id="sobre_a_loja">
+            <div class="container container_flex">
+                <img src="./imagens/loja.jpg" alt="Fachada da loja">
+                <div>
+                    <h2>Sobre a loja</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis distinctio suscipit quas ad saepe dolores incidunt, itaque dignissimos ipsa animi repellendus provident blanditiis cum eos quis velit non quia pariatur!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum facilis maiores quam nulla harum! Omnis ut sunt voluptate harum autem enim doloribus eos sed? Porro, quae sed! Maiores, sequi itaque?</p>
+                </div>
+            </div>
+        </section>
+        <section id="destaque">
+            <div class="container">
+                <h2>Em destaque</h2>
+                <ul class="container_flex lista_veiculos">
+                    <li>
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <strong>R$75.000,00</strong>
+                        <button type="button">Tenho interesse</button>
+                    </li>
+                    <li class="item_central">
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <strong>R$75.000,00</strong>
+                        <button type="button">Tenho interesse</button>
+                    </li>
+                    <li>
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <strong>R$75.000,00</strong>
+                        <button type="button">Tenho interesse</button>
+                    </li>
+                    <li>
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <strong>R$75.000,00</strong>
+                        <button type="button">Tenho interesse</button>
+                    </li>
+                    <li class="item_central">
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <strong>R$75.000,00</strong>
+                        <button type="button">Tenho interesse</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="promocao">
+            <div class="container">
+                <h2>Promoções</h2>
+                <ul class="container_flex lista_veiculos">
+                    <li>
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <div class="preco">
+                            <del>R$100.000,00</del>
+                            <strong>R$75.000,00</strong>
+                            <button type="button">Tenho interesse</button>
+                        </div>
+                    </li>
+                    <li class="item_central">
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <div class="preco">
+                            <del>R$100.000,00</del>
+                            <strong>R$75.000,00</strong>
+                            <button type="button">Tenho interesse</button>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <div class="preco">
+                            <del>R$100.000,00</del>
+                            <strong>R$75.000,00</strong>
+                            <button type="button">Tenho interesse</button>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <div class="preco">
+                            <del>R$100.000,00</del>
+                            <strong>R$75.000,00</strong>
+                            <button type="button">Tenho interesse</button>
+                        </div>
+                    </li>
+                    <li class="item_central">
+                        <h3>Carro BMW </h3>
+                        <img src="./imagens/carro-bmw.png" alt="Carro BMW">
+                        <p>Câmbio automático, 4 portas, vidros e travas elétricas.</p>
+                        <div class="preco">
+                            <del>R$100.000,00</del>
+                            <strong>R$75.000,00</strong>
+                            <button type="button">Tenho interesse</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="formulario">
+            <div class="container">
+                <h2>Entre em contato:</h2>
+                <form>
+                    <div class="form_campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome">
+                    </div>
+                    <div class="form_campo">
+                        <label for="telefone">Numero:</label>
+                        <input type="tel" id="telefone">
+                    </div>
+                    <div class="form_campo">
+                        <label for="email">email:</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="form_campo">
+                        <label for="veiculo_interesse">veiculo:</label>
+                        <input type="text" id="veiculo_interesse">
+                    </div>
+                    <div class="form_campo">
+                        <label for="mensagem">mensagem:</label>
+                        <textarea type="text" id="mensagem"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
 
-    <script type="text/javascript">
-    </script>
-</body>
+        </section>
+        <footer>
+            <div class="container container_flex">
+                <p>
+                    2023 &copy; SENAC Motors - todo os direitos reservados.
+                </p>
+            </div>
+            <ul class="container container_flex">
+                <li>
+                    <a href="#"><img src="imagens/facebook.png" alt="icone_facebook"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="imagens/instagram.png" alt="icone_facebook"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="imagens/youtube.png" alt="icone do youtube"></a>
+                </li>
+            </ul>
+        </footer>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="./mask.js/jquery.mask.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="deus.js"></script>
+        </script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </body>
 </html>
