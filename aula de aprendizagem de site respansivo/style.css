@@ -8,13 +8,16 @@ h1{
     font-size: 32px;
 }
 
-div{
+.elementos{
     background-color: red;
     width: 420px;
     height: 420px;
 }
 
 img{
-    width: 50%;
-    /* height: 100%; */
+    /* width: 50%; */
+    /* height: 50cm; */
+    width: 21.9vw;
+    height: 21.9vh;
+    /* height: 17.5em; */
 }

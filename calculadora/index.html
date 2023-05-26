@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        .calculator {
+            width: 230px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    
+        .result {
+            margin-bottom: 10px;
+            text-align: right;
+        }
+    
+        .btn {
+            width: 48px;
+            height: 30px;
+            margin: 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="result" id="result"></div>
+        <table>
+            <tr>
+                <td><button class="btn" onclick="appendValue('7')">7</button></td>
+                <td><button class="btn" onclick="appendValue('8')">8</button></td>
+                <td><button class="btn" onclick="appendValue('9')">9</button></td>
+                <td><button class="btn" onclick="appendValue('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="appendValue('4')">4</button></td>
+                <td><button class="btn" onclick="appendValue('5')">5</button></td>
+                <td><button class="btn" onclick="appendValue('6')">6</button></td>
+                <td><button class="btn" onclick="appendValue('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="appendValue('1')">1</button></td>
+                <td><button class="btn" onclick="appendValue('2')">2</button></td>
+                <td><button class="btn" onclick="appendValue('3')">3</button></td>
+                <td><button class="btn" onclick="appendValue('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="appendValue('0')">0</button></td>
+                <td><button class="btn" onclick="appendValue('.')">.</button></td>
+                <td><button class="btn" onclick="calculate()">=</button></td>
+                <td><button class="btn" onclick="appendValue('/')">/</button></td>
+            </tr>
+            <tr>
+                <td colspan="4"><button class="btn" onclick="clearInput()">C</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        let input = '';
+        const resultElement = document.getElementById('result');
+
+        function appendValue(value) {
+            input += value;
+            resultElement.textContent = input;
+        }
+
+        function calculate() {
+            try {
+                const result = eval(input);
+                input = String(result);
+                resultElement.textContent = input;
+            } catch (error) {
+                input = '';
+                resultElement.textContent = 'Error';
+            }
+        }
+
+        function clearInput() {
+            input = '';
+            resultElement.textContent = '';
+        }
+    </script>
+</body>
+</html>
